@@ -2,9 +2,9 @@ import java.util.Random;
 
 public class Task17 {
     public static void main(String[] args) {
-        //Данмассив.
-        // Вывестинаэкрансначалаегонеотрицательныеэлементы,
-        // затемотрицательные
+        //Дан массив.
+        // Вывести на экран сначала его неотрицательные элементы,
+        // затем отрицательные
         Random r = new Random();
         int[] mass = new int[20];
         for (int i = 0; i < 20; i++) {
